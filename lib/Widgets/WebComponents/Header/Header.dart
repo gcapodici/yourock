@@ -29,8 +29,7 @@ class _HeaderState extends State<Header> {
           crossAxisAlignment: CrossAxisAlignment.center,
           children: [
             Text(
-              // *Este Text es el titulo GOOD COFFEE
-              shopStr,
+              navbarName,
               style: TextStyle(
                 color: Colors.blueGrey[100],
                 fontSize: responsiveApp.headline6,
@@ -41,24 +40,27 @@ class _HeaderState extends State<Header> {
             ),
             Expanded(
               child: Row(
-                mainAxisAlignment: MainAxisAlignment.start,
+                mainAxisAlignment: MainAxisAlignment.center,
                 children: [
+                  HeaderButton(0, navbarHome),
                   SizedBox(width: responsiveApp.barSpace1Width),
-                  HeaderButton(0, aboutUsStr),
+                  HeaderButton(1, navbarProducts),
                   SizedBox(width: responsiveApp.barSpace1Width),
-                  HeaderButton(1, locationStr),
+                  HeaderButton(2, navbarAboutUs),
+                  SizedBox(width: responsiveApp.barSpace1Width),
+                  HeaderButton(3, navbarContact),
                 ],
               ),
             ),
-            // *Sección de iniciar sesión
-            HeaderButton(2, loginStr, lineIsVisible: false),
-            IconButton(
-              padding: EdgeInsets.zero,
-              icon: const Icon(Icons.local_grocery_store_outlined),
-              splashColor: Colors.transparent,
-              highlightColor: Colors.transparent,
-              onPressed: () {},
-            )
+            // *Sección de iniciar sesión - Acá pondría las redes tal vez
+            // HeaderButton(2, loginStr, lineIsVisible: false),
+            // IconButton(
+            //   padding: EdgeInsets.zero,
+            //   icon: const Icon(Icons.local_grocery_store_outlined),
+            //   splashColor: Colors.transparent,
+            //   highlightColor: Colors.transparent,
+            //   onPressed: () {},
+            // )
           ],
         ),
       ),

@@ -35,7 +35,7 @@ class ShopAppBar extends StatelessWidget implements PreferredSizeWidget {
         ),
       ],
       title: Text(
-        shopStr,
+        navbarName,
         style: TextStyle(
           color: Colors.blueGrey[100],
           fontSize: responsiveApp.headline6,

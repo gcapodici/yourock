@@ -1,5 +1,5 @@
 //String Menu
-String get shopStr => "GOOD COFFEE";
+String get navbarName => "YOUROCK";
 String get coffeesStr => "Cafes";
 String get drinksStr => "Bebidas";
 String get cakesStr => "Pasteles";
@@ -9,9 +9,11 @@ String get sectionMenuTitleStr => "Nuestra Carta";
 String get sectionMenuSubTitleStr => "Todo Organico";
 
 //String Drawer y footer
-String get aboutUsStr => "Nosotros";
+String get navbarHome => "Inicio";
+String get navbarProducts => "Productos";
+String get navbarAboutUs => "Nosotros";
+String get navbarContact => "Contacto";
 String get contactUsStr => "Contactanos";
-String get locationStr => "Ubicacion";
 String get knowUsStr => "Conocenos";
 String get loginStr => "Iniciar Sesión";
 String get copyrightStr => "Copyright © 2021 | CODIGOFACILITO";

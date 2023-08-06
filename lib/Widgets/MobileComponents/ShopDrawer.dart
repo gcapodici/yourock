@@ -33,12 +33,12 @@ class _ShopDrawerState extends State<ShopDrawer> {
                 ),
                 getItem(
                   onTap: () {},
-                  title: aboutUsStr,
+                  title: navbarAboutUs,
                   icon: Icons.article_outlined,
                 ),
                 getItem(
                   onTap: () {},
-                  title: locationStr,
+                  title: navbarContact,
                   icon: Icons.location_on_outlined,
                 ),
                 getItem(

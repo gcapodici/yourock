@@ -13,7 +13,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
-      title: "Good Coffee",
+      title: "Yourock",
       debugShowCheckedModeBanner: false,
       theme: AppTheme.ligthTheme,
       initialRoute: 'home',

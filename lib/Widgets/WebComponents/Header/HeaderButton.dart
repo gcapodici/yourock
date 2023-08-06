@@ -15,11 +15,7 @@ class HeaderButton extends StatefulWidget {
 
 class _HeaderButtonState extends State<HeaderButton> {
   int index;
-  final List _isHovering = [
-    false,
-    false,
-    false,
-  ];
+  final List _isHovering = [false, false, false, false];
 
   _HeaderButtonState(this.index);
 

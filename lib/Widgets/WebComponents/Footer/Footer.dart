@@ -24,7 +24,7 @@ class Footer extends StatelessWidget {
               BottomColumn(
                 heading: aboutStr,
                 s1: contactUsStr,
-                s2: aboutUsStr,
+                s2: navbarAboutUs,
                 s3: knowUsStr,
               ),
               BottomColumn(
